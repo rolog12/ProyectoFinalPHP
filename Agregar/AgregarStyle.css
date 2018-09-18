@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./BackgroundAgregar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Formulario{
+    margin: auto;
+    width: 98%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: fixed;
+}
+
+.DivFormulario{
+    margin: auto;
+    width: 40%;
+    height: 40%;  
+    border: 5px solid white;
+    margin-top: 230px;
+    border-radius: 15px;
+}
+
+.DivFormulario table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.DivFormulario table{
+    /*width: 40%;
+    height: 40%;*/
+    margin: auto;
+    margin-top: 70px;
+    color: white
+}
+
+.DivFormulario table input{
+    border-radius: 15px;
+    height: 30px;
+    width: 260px;
+}
+
+#Formulario button{
+    width: 160px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.3em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#Formulario a{
+    margin-left: 150px;
+    color: white;
+}
