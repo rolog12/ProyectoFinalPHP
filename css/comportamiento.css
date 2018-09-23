@@ -1,0 +1,11 @@
+/* CLASE COMPORTAMIENTO DE LAS VALIDACIONES DEL FORMULARIO */
+
+
+.input-text {
+   padding: relative;
+    background:  green;
+    position: absolute;
+     width: 28%;
+   font-size: 12px;    
+}
+

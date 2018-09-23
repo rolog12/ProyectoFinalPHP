@@ -1,0 +1,60 @@
+#tipo{ position: relative;
+       top: 100px;
+       right: -950px;
+       width:300px;
+       
+       }
+#logo{position: absolute;
+	right: 200px;
+	top: 50px;
+    height: auto; width: 300px;}
+#my{
+			background-color:rgba(255, 222, 173, 0.9);
+			padding: 60px 50px 60px 50px;
+			height: auto;
+			margin-right: 750px;
+			width: 260px;
+			}
+            body{
+	        background-image: url(../Extras/1.jpg);
+	        background-size: cover;
+	        background-repeat: no-repeat;
+	        display: flex;
+	        justify-content: flex-end;
+	        height: 100vh;
+	        align-items: center;
+	        width: 100%;
+	        margin: 0;
+	        } 
+	        #my h1{
+	        	text-align:center;
+	        	text-transform: uppercase;
+	        	font-weight: bold;
+	        }
+	        #my input{
+    width: 100%;
+    padding: 8px 0;
+}
+	        #my select{
+    width: 100%;
+    text-align: center;
+    text-align-last: center;
+    padding: 8px 0;
+    display: block;
+}
+#my .col{
+    margin: 10px 0;
+}
+#my .error{
+    color: #f10000;
+}
+#my .col label{
+    margin-bottom: 4px;
+    display: block;
+}
+#my .submit{}
+#my .submit button{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,54 @@
+ body { background-image:url(IMG/creepy-anime-wallpaper-wide-For-Widescreen-Wallpaper.png);
+    background-position: center;
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+     border: red 110px white; 
+     margin-left: 110px;
+     margin-right: 110px;
+     margin-top: 150px;
+     margin-bottom: 150px;
+     }
+h3{
+      width: 600px;
+    height: 250px;
+   border: 3px solid gray;
+    margin: auto;
+   background-image: url(IMG/Monstrou%20X_800.jpg);
+    float:none; 
+    background-size: 100% 100%
+}
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contenido{
+    width: 700px;
+    height: 600px;
+    float: left;
+    }
+aside {
+     
+       width: 250px;
+    height: 600px;
+   border: 3px solid gray;
+    margin: auto;
+   background-image: url(IMG/1.jpg);
+    float: right; 
+    background-size: 100% 100%
+}
+
+aside h2 {
+    font-size: 40px;
+    image-orientation: center;
+    line-height: 500px;
+    float: right; 
+}
+foonter{
+    background: black;
+    clear: both;
+    
+}

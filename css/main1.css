@@ -1,0 +1,95 @@
+/** CLASE FORMULARIO CSS */
+
+/* EL FONDO */
+
+    {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    width: 90;
+    height:728px;
+    margin: auto; 
+    background-image: url(/IMG/fondotal.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: navajowhite;
+   
+}
+
+/* Titulo "Crea tu cuenta"*/
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Ordenamos  todo el formulario */
+
+.formulario {
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    background: #ebe1c9;
+
+}
+
+/* Todo lo que conforma el titulo */
+
+.formulario__titulo {
+    background: #921C1C ;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 7px;
+}
+
+/* CONTENEDOR QUE CONTIENE LOS INPUTS*/
+
+.contenedor__inputs {
+    padding: 10px 30px;
+    /*¨display para acomodar los inputs*/
+    display: flex;
+    /*El contenido que no entra se va hacia abajo*/
+    flex-wrap: wrap;
+    /*SEPARAMOS LOS INPUTS*/
+    justify-content: space-between;
+
+}
+
+/* inputs que estan al lado de los otros */
+
+.input-48 {
+
+    width: 42%;
+}
+
+/* INPUTS LARGOS */
+
+.input-100 {
+    width: 100%;
+}
+
+/* ordenamos todos los inputs */
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1 px solid gray;
+}
+
+/* El boton de registrar */
+
+.btn-registrar {
+    background: firebrick;
+    color: white;
+     padding: 10px 40px;
+}
+
+

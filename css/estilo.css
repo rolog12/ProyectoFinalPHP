@@ -1,0 +1,14 @@
+p {
+    font-family: Anal;
+    font-size: 150px;
+    letter-spacing: 5px;
+}
+body { background-image:url(IMG/jj.jpg);
+    background-position: center;
+    background-repeat: no-repeat
+    }
+p{text-indent: 5%;
+text-decoration: blink;
+}
+ol {position: relative;
+left: 150px;}
